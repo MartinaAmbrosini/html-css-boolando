@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 18px;
+}
+/* Style the header */
+
+header {
+    height: 80px;
+    background-color: #eb7609;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 500;
+    
+}
+
+.header-container {
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.icons i {
+    margin-left: 5px;
+}
+
+.logo-header img {
+    width: 25%;
+}
+
+main {
+    padding: 200px 0 50px;
+}
+
+section {
+    position: relative;
+}
+/* regole parte shop */
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 30px;
+    margin: 0 5px;
+    /* Debug */
+    background-color: cadetblue;
+    min-height: 300px;
+    position: relative;
+}
+
+.img_prod {
+   display: flex;
+   justify-content: center;
+}
+
+.img_prod img {
+   width: 90%;
+}
+
+.col > .discount {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(255, 14, 14); 
+    color: white;
+    width: 70px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
