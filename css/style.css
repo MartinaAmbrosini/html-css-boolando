@@ -95,7 +95,7 @@ section {
 .col > .discount {
     position: absolute;
     left: 82px;
-    bottom: 80px;
+    bottom: 68px;
     background-color: rgb(255, 14, 14); 
     color: white;
     width: 60px;
@@ -108,7 +108,7 @@ section {
 .col > .sostenibilità {
     position: absolute;
     left: 148px;
-    bottom: 80px;
+    bottom: 68px;
     background-color: green; 
     color: white;
     width: 120px;
@@ -120,7 +120,7 @@ section {
 
 .sostenibilità_alt {
     left: 84px;
-    bottom: 80px;
+    bottom: 68px;
     position: absolute;
     background-color: green; 
     color: white;
@@ -139,4 +139,38 @@ section {
 .prize {
     color: red;
     font-weight: bold;
+}
+
+footer {
+    height: 110px;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid white; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.link_utili a {
+    margin-left: 0;
+    font-size:medium;
+}
+
+.link_utili h4 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.social h4 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.social i {
+    margin-right: 8px;
 }
