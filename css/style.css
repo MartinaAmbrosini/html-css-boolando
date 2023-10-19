@@ -141,6 +141,17 @@ section {
     font-weight: bold;
 }
 
+.col > .heart {
+    position: absolute;
+    top: 45px;
+    left: 437px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
 footer {
     height: 110px;
     background-color: black;
