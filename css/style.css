@@ -152,6 +152,10 @@ section {
     text-align: center;
 }
 
+.heart:hover {
+    color: red;
+}
+
 footer {
     height: 110px;
     background-color: black;
